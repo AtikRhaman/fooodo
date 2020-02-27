@@ -1,0 +1,17 @@
+
+.food-cart_container{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.food-cart {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.food-cart_img {
+    width: 100%;
+}
+.food-cart_img> img {
+    width: 100%;
+}
