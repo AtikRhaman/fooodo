@@ -1,6 +1,20 @@
 import React from "react";
+import Nav from "./Nav";
+import Banner from "./Banner";
+import "../../scss/common.scss";
 
 const Header = () => {
-  return <h1>Header Gose here</h1>;
+  return (
+    <header className="header-section">
+      <div className="container">
+        <Nav />
+      </div>
+      <section className="banner-section">
+        <div className="container">
+          <Banner />
+        </div>
+      </section>
+    </header>
+  );
 };
 export default Header;
